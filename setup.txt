@@ -1,0 +1,44 @@
+swaylock
+swayidle
+redshift (but figure out how to control it)
+blueman & start blueman-applet
+zen kernel?
+polkit-gnome
+mako
+nm-applet
+dex
+hyprland
+hyprpaper
+waybar
+fuzzel
+sddm (if not using gnome)
+eos-sddm-theme (if not using gnome)
+tuxedo drivers may need to be forked
+Add github ssh key
+need script for dotfiles overwrite to current dir (init then add remote)
+set git config globals (can script) git config --global user.email "nickdowsett42@gmail.com" git config --global user.name "Nick Dowsett"
+nerd fonts: symbols, jetbrainsmono
+blueberry
+endeavouros theming stuff
+Warning: Not yet git cloned
+# Apps
+helix
+fish
+fisher
+google-chrome
+kitty
+broot
+
+# paru?
+# Laptop setup
+# Enable bluetooth and start it
+systemctl enable bluetooth.service
+systemctl start bluetooth.service
+# Install Tuxedo control center
+# Not currently working
+yay -Syu tuxedo-control-center-bin
+# install tide (need to be inside fish shell)
+# note - need to delete _tide_init.fish
+fisher install IlanCosman/tide@v6
+# tide config doesn't seem to work.
+# tide config can be run as a single command so maybe do that instead.
