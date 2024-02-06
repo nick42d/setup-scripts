@@ -2,7 +2,7 @@ Add dev tools - react, android studio.
 
 patch tuxedo-drivers
 kernel-modules-hook
-swaylock
+swaylock - change to swaylock-effects
 swayidle
 redshift (but figure out how to control it)
 blueman & start blueman-applet
