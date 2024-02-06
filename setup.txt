@@ -1,5 +1,7 @@
 Add dev tools - react, android studio.
 
+patch tuxedo-drivers
+kernel-modules-hook
 swaylock
 swayidle
 redshift (but figure out how to control it)
