@@ -1,3 +1,5 @@
+Add dev tools - react, android studio.
+
 swaylock
 swayidle
 redshift (but figure out how to control it)
