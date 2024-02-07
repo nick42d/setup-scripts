@@ -1,5 +1,10 @@
-Add dev tools - react, android studio.
-Android studio: Basic install then: 
+Add dev tools - yarn, android-studio, watchman
+Android studio: Basic install then:
+Install Android 13 SDKs (show package details)
+Google APIs Intel x86_64 Atom System Image
+Android SDK Platform 33
+Configure vm accel:
+https://developer.android.com/studio/run/emulator-acceleration?utm_source=android-studio#vm-linux
 Android studio env vars:
 set -Ux ANDROID_HOME $HOME/Android/Sdk
 fish_add_path $ANDROID_HOME/emulator
