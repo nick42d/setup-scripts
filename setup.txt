@@ -1,3 +1,4 @@
+Change terminal in .profile
 Add dev tools - yarn, android-studio, watchman
 Android studio: Basic install then:
 Install Android 13 SDKs (show package details)
