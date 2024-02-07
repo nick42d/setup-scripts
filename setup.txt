@@ -1,4 +1,9 @@
 Add dev tools - react, android studio.
+Android studio: Basic install then: 
+Android studio env vars:
+set -Ux ANDROID_HOME $HOME/Android/Sdk
+fish_add_path $ANDROID_HOME/emulator
+fish_add_path $ANDROID_HOME/platform-tools
 
 patch tuxedo-drivers
 kernel-modules-hook
