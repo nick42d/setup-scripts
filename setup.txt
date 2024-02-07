@@ -1,5 +1,6 @@
 Change terminal in .profile
-Add dev tools - yarn, android-studio, watchman
+Add dev tools - yarn, android-studio, watchman, npm
+Install react-native: npx react-native
 Android studio: Basic install then:
 Install Android 13 SDKs (show package details):
 Google APIs Intel x86_64 Atom System Image
@@ -11,6 +12,7 @@ Android studio env vars:
 set -Ux ANDROID_HOME $HOME/Android/Sdk
 fish_add_path $ANDROID_HOME/emulator
 fish_add_path $ANDROID_HOME/platform-tools
+rust: rustup & rust-analyzer packages.
 
 patch tuxedo-drivers
 kernel-modules-hook
