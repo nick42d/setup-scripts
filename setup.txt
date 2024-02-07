@@ -1,6 +1,6 @@
 Change terminal in .profile
-Add dev tools - yarn, android-studio, watchman, npm
-Install react-native: npx react-native
+Add dev tools - yarn, android-studio, watchman, npm, jdk (openjdk 17)
+Install react-native in project directory: yarn add react-native
 Android studio: Basic install then:
 Install Android 13 SDKs (show package details):
 Google APIs Intel x86_64 Atom System Image
@@ -14,6 +14,7 @@ fish_add_path $ANDROID_HOME/emulator
 fish_add_path $ANDROID_HOME/platform-tools
 rust: rustup & rust-analyzer packages.
 
+change 
 patch tuxedo-drivers
 kernel-modules-hook
 swaylock - change to swaylock-effects
