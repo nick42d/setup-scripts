@@ -12,6 +12,7 @@ Android studio env vars:
 set -Ux ANDROID_HOME $HOME/Android/Sdk
 fish_add_path $ANDROID_HOME/emulator
 fish_add_path $ANDROID_HOME/platform-tools
+typescript-language-server, prettier, eslint
 rust: rustup & rust-analyzer packages.
 
 change 
