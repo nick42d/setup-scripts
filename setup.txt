@@ -15,10 +15,11 @@ fish_add_path $ANDROID_HOME/platform-tools
 typescript-language-server, prettier, eslint
 rust: rustup & rust-analyzer packages.
 
+hide acpi errors: add loglevel=3 to /etc/kernel/cmdline
 change 
 patch tuxedo-drivers
 kernel-modules-hook
-swaylock - change to swaylock-effects
+swaylock-effects
 swayidle
 redshift (but figure out how to control it)
 blueman & start blueman-applet
