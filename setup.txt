@@ -16,7 +16,7 @@ typescript-language-server, prettier, eslint
 rust: rustup & rust-analyzer packages.
 
 hide acpi errors: add loglevel=3 to /etc/kernel/cmdline
-change 
+gsimplecal
 patch tuxedo-drivers
 kernel-modules-hook
 swaylock-effects
