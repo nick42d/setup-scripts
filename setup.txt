@@ -19,8 +19,8 @@ hide acpi errors: add loglevel=3 to /etc/kernel/cmdline
 gsimplecal
 patch tuxedo-drivers
 kernel-modules-hook
-swaylock-effects
-swayidle
+swaylock-effects (replace with hyprlock)
+swayidle (replace with hypridle???)
 redshift (but figure out how to control it)
 blueman & start blueman-applet
 zen kernel?
