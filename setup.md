@@ -15,6 +15,14 @@ fish_add_path $ANDROID_HOME/platform-tools
 typescript-language-server, prettier, eslint
 rust: rustup & rust-analyzer packages.
 
+speed up pacman:
+add the following to ~/.makepkg.conf:
+`# Override extension 
+PKGEXT='.pkg.tar'
+# Don't use debug
+OPTIONS=(strip docs !libtool !staticlibs emptydirs zipman purge !debug lto)`
+
+
 hide acpi errors: add loglevel=3 to /etc/kernel/cmdline
 gsimplecal
 patch tuxedo-drivers
